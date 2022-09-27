@@ -72,9 +72,9 @@
     background-color: rgb(203, 92, 255);
 }
 .about-boxes{
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 1.875rem;
-    margin-top: 4.35rem;
+    margin-top: 1.35rem;
 }
 .about-box{
     display: flex;
@@ -86,4 +86,14 @@
 }
 .about-title{
     font-size: 1.875rem;
+}
+.about-img{
+    clip-path: circle();
+    display: flex;
+    padding-bottom: 5px;
+    width: 240px;
+}
+.about-img:hover{
+    animation: button-push 1s;
+
 }

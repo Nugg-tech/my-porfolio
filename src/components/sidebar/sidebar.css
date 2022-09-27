@@ -1,3 +1,11 @@
+.nav-logo{
+    clip-path: circle();
+    display: flex;
+    height: 60px;
+    width: 60px;
+
+}
+
 .aside{
     position: fixed;
     left: 0;

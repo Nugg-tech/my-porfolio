@@ -1,6 +1,6 @@
 import React from 'react'
 import "./sidebar.css"
-import Logo from "../../assets/logo.svg"
+import Logo from "../../assets/logo.png"
 const Sidebar = () => {
   return (
     <aside className="aside">
@@ -29,22 +29,18 @@ const Sidebar = () => {
             </li>
 
             <li className="nav-item">
-              <a href="resume" className="nav-link">
+              <a href="#resume" className="nav-link">
               <i className="icon-graduation"></i>
               </a>
             </li>
 
             <li className="nav-item">
-              <a href="#portfolio" className="nav-link">
+              <a href="#work" className="nav-link">
               <i className="icon-layers"></i>
               </a>
             </li>
 
-            <li className="nav-item">
-              <a href="#contact" className="nav-link">
-              <i className="icon-bubbles"></i>
-              </a>
-            </li>
+
           </ul>
         </div>
       </nav>

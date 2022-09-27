@@ -1,9 +1,4 @@
-.work-filter{
-    display: flex;
-    align-items: center;
-    column-gap: 1.875rem;
-    margin-bottom: 2.5rem;
-}
+
 .work-item{
     cursor: pointer;
     font-weight: var(--font-bold);
@@ -13,8 +8,11 @@
     color: var(--first-color);
 }
 .work-container{
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.875rem;
+    margin-bottom: 40px;
+    justify-content: center;
+    display: flex;
 }
 .work-card{
     position: relative;
@@ -50,7 +48,7 @@
 }
 .work-title{
     color: #fff;
-    font-size: var(--h3-font-size);
+    font-size: var(--h1-font-size);
     margin: 0 0 0.98rem;
     padding: 0 1.25rem;
     position: absolute;
@@ -80,10 +78,6 @@
     opacity: 1;
 }
 .work-card:hover .work-title{
-    opacity: 1;
-    transform: translateX(0);
-}
-.work-card:hover .work-category{
     opacity: 1;
     transform: translateX(0);
 }

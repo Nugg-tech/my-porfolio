@@ -37,7 +37,7 @@ const Contact = () => {
                 placeholder="Spill your message and we chitchat it"
                 className="contact_form-contact"
               ></textarea>
-              <button className="btn">Send the Message</button>
+              <button>message me</button>
             </div>
           </div>
         </form>
