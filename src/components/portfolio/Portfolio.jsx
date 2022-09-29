@@ -16,7 +16,7 @@ const Portfolio = () => {
       {items.map((elem) => {
         const {id, image, title, category} = elem;
         return(
-          <a href="https://animejs.com/documentation/#lineDrawing">
+          <a href="https://vercel.com/nugg-tech">
                       <div className="work-card"  key={id}>
             <div className="work-thumbnail">
               <img src={image} alt="" className="work-img" />

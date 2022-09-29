@@ -15,13 +15,13 @@ const data = [
   id: 3,
   image: Image3,
   title: "Video-Editor",
-  description: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem."
+  description: "freelancing for 2 years of video editing in my highschool days and have knowledge of basic and advance video editing."
  },
  {
   id: 4,
   image: Image4,
   title: "Back-end",
-  description: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem."
+  description: "know how to use PHP laravel and use a TALL stack in my previous capstone project."
  },
  
 ]
