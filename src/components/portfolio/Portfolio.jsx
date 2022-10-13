@@ -16,7 +16,7 @@ const Portfolio = () => {
       {items.map((elem) => {
         const {id, image, title, category} = elem;
         return(
-          <a href="https://github.com/Nugg-tech">
+          <a href="https://github.com/Nugg-tech?tab=repositories">
                       <div className="work-card"  key={id}>
             <div className="work-thumbnail">
               <img src={image} alt="" className="work-img" />
